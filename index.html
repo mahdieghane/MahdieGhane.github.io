@@ -1,26 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mahdie Ghane's Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Optional: Link to CSS -->
+    <title>Mahdieh Ghane Ezabadi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .content {
+            width: 90%;
+            max-width: 800px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .profile-text {
+            flex: 2;
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+
+        .profile-image {
+            flex: 1;
+            width: 100%;
+            height: auto;
+        }
+
+        .profile-pic {
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        .profile-links {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .profile-links a {
+            margin-right: 10px; /* Adjust the spacing as needed */
+        }
+
+        h1 {
+            font-size: 32px; /* Adjust the size as needed */
+            font-weight: 600
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        strong.pubtitle {
+            color: navy;
+        }
+
+        a {
+            font-size: 14px;
+            color: #0000EE; /* Change this to the color you prefer */
+        }
+
+        a:hover {
+            color: orange; /* Hover link color */
+        }
+
+        @media (max-width: 768px) {
+            .publication-content {
+                flex: 2;
+                width: 100%;
+                text-align: left;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm Mahdie Ghane. I'm a Machine Learning Engineer.</p>
-    </header>
-    <section>
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="https://github.com/mahdieghane/yourproject1">Project 1</a></li>
-            <li><a href="https://github.com/mahdieghane/yourproject2">Project 2</a></li>
-            <!-- Add more projects here -->
-        </ul>
-    </section>
-    <footer>
-        <p>Contact: <a href="mailto:mga114@sfu.ca">mga114@sfu.ca</a></p>
-    </footer>
+
+    <div class="content">
+        <div class="profile-image">
+            <img src="mypic2-wide.jpg" alt="Mahdieh Ghane Ezabadi" class="profile-pic">
+        </div>
+
+        <div class="profile">
+            <div class="profile-text">
+                <h1 align="center">Mahdieh Ghane Ezabadi</h1>
+                <p>I am a <em>Machine Learning Engineer</em> with a Master's degree in Computer Science from Simon Fraser University (SFU). My research focuses on machine learning applications in biomedical data, computer vision, and human-computer interaction.</p>
+                <p>Before my Master's, I completed a Bachelor's degree in Electrical Engineering, where I gained a solid foundation in data analysis and signal processing.</p>
+                <br>
+                <p class="profile-links">
+                    <a href="mailto:mga114@sfu.ca" title="Email"><i class="fas fa-envelope fa-2x"></i></a>
+                    <a href="https://github.com/mahdieghane" title="Github"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="https://linkedin.com/in/mahdie-ghane" title="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+                </p>
+            </div>
+        </div>
+
+        <h2>News</h2>
+        <p>I am currently seeking opportunities to apply my skills in data science and machine learning in the industry! (October 2024)</p>
+        <p>I graduated with a Master's degree in Computer Science from Simon Fraser University! (August 2024)</p>
+
+        <h2>Research</h2>
+        <p>
+            My research focuses on leveraging machine learning for practical applications in smart textiles and activity recognition. I am passionate about solving complex problems in the field of artificial intelligence and continuously improving my skills.
+        </p>
+
+        <h2>Publications</h2>
+
+        <div class="publication-item">
+            <div class="image-container">
+                <a href="https://github.com/mahdieghane/Textile_Mic">
+                    <img src="your-image-link.jpg" alt="Smart Textile" class="publication-image" />
+                </a>
+            </div>
+            <div class="publication-content">
+                <p>
+                    <strong class="pubtitle">Developing Smart Shirt for Daily Activity Recognition</strong>
+                    <br>
+                    <strong>Mahdieh Ghane Ezabadi</strong>, Aditya Shekhar Nittala
+                    <br>
+                    Submitted to <strong class="type2">HCI International 2025</strong>
+                    <br>
+                    <a href="https://github.com/mahdieghane/Textile_Mic">[Project page]</a>
+                </p>
+                <p>
+                    This project focuses on creating a smart shirt that recognizes daily activities using machine learning techniques.
+                </p>
+            </div>
+        </div>
+
+        <!-- Add more publications here -->
+
+    </div>
 </body>
+
 </html>
