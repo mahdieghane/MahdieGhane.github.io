@@ -9,7 +9,8 @@ into actionable outcomes and working effectively in distributed environments.
 
 ## Projects
 ### Smart Interlining Textile
-- **Description**: Developed a smart textile for recognizing daily activities with over 92% accuracy...
+- **Description**: Developing a smart interlining textile for recognizing daily activities with over 92%
+accuracy, including voice capture and chat functionality using LLM models.
 - **Technologies Used**: Python, TensorFlow, etc.
 - [GitHub Repository](#)
 
