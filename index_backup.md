@@ -1,7 +1,11 @@
 # Mahdieh Ghane Ezabadi
 
 ## About Me
-I am a machine learning engineer with a passion for developing data-driven solutions...
+Hi!
+
+My name is Mahdie Ghane and I recently graduated from Simon Fraser University! I'm a Machine Learning Engineer with expertise in software development, cloud infrastructure, CI/CD pipelines, and datadriven frameworks. I have proven ability to automate processes, develop scalable applications, and integrate machine learning models for analytics. Skilled in Python, SQL, TensorFlow, and version control systems, with experience delivering end-to-end solutions fromresearch to production. Collaborative teamplayer, adept at translating complex data insights
+into actionable outcomes and working effectively in distributed environments.
+
 
 ## Projects
 ### Smart Interlining Textile
