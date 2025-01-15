@@ -3,8 +3,13 @@
 ## About Me
 Hi!
 
-My name is Mahdie Ghane and I recently graduated from Simon Fraser University! I'm a Machine Learning Engineer with expertise in software development, cloud infrastructure, CI/CD pipelines, and datadriven frameworks. I have proven ability to automate processes, develop scalable applications, and integrate machine learning models for analytics. Skilled in Python, SQL, TensorFlow, and version control systems, with experience delivering end-to-end solutions fromresearch to production. Collaborative teamplayer, adept at translating complex data insights
-into actionable outcomes and working effectively in distributed environments.
+My name is Mahdie Ghane and I recently graduated from Simon Fraser University! with a particular interest in Deep Learning. My experience spans deploying advanced
+machine learning models—including state-of-the-art Generative AI, and multi-modal LLMs—to address real-world challenges
+effectively. I have deep proficiency in Python, PyTorch, and TensorFlow, I excel at building resilient ML pipelines
+and advancing prototypes to production-ready applications. I am also known for my collaborative spirit and strong
+communication skills, I thrive in cross-functional team environments, delivering actionable insights and solutions in
+distributed, large-scale settings.
+
 
 
 ## Projects
