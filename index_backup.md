@@ -59,11 +59,7 @@ distributed, large-scale settings.
 - **Technical Skills**: Machine Learning, Deep Learning, Biomedical Signal Processing, Computer Vision, Distributed Systems, Statistical Analysis.
 - **Additional Skills**: Real-Time Data Processing, Multi-Modal AI Models, FPGA Implementation, Embedded Systems.
 
-%## Publications
-- "InteLlinings: Developing Smart Interlining Using TENGs for Activity Recognition" - Submitted to HCI International 2025 Conference.
-- "Extracting Attention Index from EEG Signals Using a Novel Approach Based on Deep Learning" - Submitted to the Journal of Attention Disorders.
-- "A Novel Algorithm for Detecting Attention in Single-Trial EEG Signals" - Submitted to UIST International 2024 Conference.
-%
+
 ## Contact
 You can reach me at: [mga114@sfu.ca](mailto:mga114@sfu.ca)
 
