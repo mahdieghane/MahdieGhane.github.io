@@ -1,206 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
- 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahdieh Ghane Ezabadi</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            font-family: 'Segoe UI', sans-serif;
-        }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
 
-        .content {
-            width: 90%;
-            max-width: 800px;
-            margin-top: 40px;
-            margin-bottom: 40px;
-        }
+.content {
+    width: 90%;
+    max-width: 800px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
-        .profile {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-        }
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
-        .profile-text {
-            flex: 2;
-            margin-right: 15px;
-            margin-left: 15px;
-        }
+.profile-text {
+    flex: 2;
+    margin-right: 15px;
+    margin-left: 15px;
+}
 
-        .profile-image {
-            flex: 1;
-            width: 100%;
-            height: auto;
-        }
+.profile-image {
+    flex: 1;
+    width: 100%;
+    height: auto;
+}
 
-        .profile-pic {
-            width: 100%;
-            height: auto;
-            border-radius: 20px;
-        }
+.profile-pic {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
 
-        .profile-links {
-            text-align: center;
-            margin-top: 10px;
-        }
+.profile-links {
+    text-align: center;
+    margin-top: 10px;
+}
 
-        .profile-links a {
-            margin-right: 10px;
-        }
+.profile-links a {
+    margin-right: 10px;
+}
 
-        ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
+.publication-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
 
-        li {
-            display: flex;
-            align-items: flex-start;
-            margin-top: 5px;
-        }
+.image-container {
+    flex:1;
+    width: 100%;
+    margin-right: 20px;
+}
 
-        .date {
-            width: 100px;
-            font-size: 14px;
-            flex-shrink: 0;
-        }
+.publication-content {
+    flex:4;
+    width: 100%;
+    text-align: left;
+}
 
-        li span {
-            font-size: 14px;
-        }
+.publication-image {
+    width: 100%;
+    border-radius: 30%;
+}
 
-        h1 {
-            font-size: 32px;
-            font-weight: 600;
-        }
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
-        h2 {
-            font-size: 20px;
-        }
+li {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5px;
+}
 
-        p {
-            font-size: 14px;
-        }
+.date {
+    width: 100px;
+    font-size: 14px;
+    flex-shrink: 0;
+}
 
-        strong {
-            font-weight: 600;
-        }
+li span {
+    font-size: 14px;
+}
 
-        a {
-            font-size: 14px;
-            color: #0000EE;
-        }
+h1 {
+    font-size: 32px;
+    font-weight: 600
+}
 
-        a:hover {
-            color: orange;
-        }
+h2 {
+    font-size: 20px;
+}
 
-        @media (max-width: 768px) {
-            .publication-content {
-                flex: 2;
-                width: 100%;
-                text-align: left;
-            }
-        }
-    </style>
+p {
+    font-size: 14px;
+}
+
+strong.type2 {
+    font-weight: 600
+}
+
+strong.pubtitle {
+    color: navy;
+}
+
+a {
+    font-size: 14px;
+    color: #0000EE;
+}
+
+a:visited {
+    color: #0000EE;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:visited:hover {
+    color: orange;
+}
+
+@media (max-width: 768px) {
+    .publication-content {
+        flex:2;
+        width: 100%;
+        text-align: left;
+    }
+}
+</style>
 </head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0GSFDC69G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-0GSFDC69G7');
+</script>
 
 <body>
     <div class="content">
+        <div class="profile-image">
+            <img src="IMG_2327.JPG" alt="Mahdieh Ghane Ezabadi" class="profile-pic">
+        </div>
+
         <div class="profile">
-            <div class="profile-image">
-                <img src="IMG_2327.JPG" alt="Mahdieh Ghane Ezabadi" class="profile-pic">
-            </div>
             <div class="profile-text">
                 <h1 align="center">Mahdieh Ghane Ezabadi</h1>
-                <p>Hi! My name is Mahdieh Ghane, and I recently graduated from Simon Fraser University with a particular interest in Deep Learning. My experience spans deploying advanced machine learning models—including state-of-the-art Generative AI and multi-modal LLMs—to address real-world challenges effectively.</p>
+                <p>Hi! My name is Mahdieh Ghane, and I recently graduated from <em>Simon Fraser University</em> with a particular interest in Deep Learning. My experience spans deploying advanced machine learning models—including state-of-the-art Generative AI and multi-modal LLMs—to address real-world challenges effectively.</p>
                 <p>I have deep proficiency in Python, PyTorch, and TensorFlow. I excel at building resilient ML pipelines and advancing prototypes to production-ready applications. Known for my collaborative spirit and strong communication skills, I thrive in cross-functional team environments, delivering actionable insights and solutions in distributed, large-scale settings.</p>
+                <p class="profile-links">
+                    <a href="mailto:mga114@sfu.ca" title="Email"><i class="fas fa-envelope fa-2x"></i></a>
+                    <a href="https://github.com/mahdieghane" title="Github"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="https://linkedin.com/in/mahdieghane" title="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+                </p>
             </div>
         </div>
 
         <h2>Experience</h2>
-
-        <h3>Researcher at University of British Columbia</h3>
         <ul>
-            <li>Designed and implemented a deep learning pipeline to predict injury outcomes in concussed athletes, analyzing gender-based differences using advanced neural network architectures.</li>
-            <li>Conducted optimization and statistical analysis to improve the scalability and robustness of EEG time-series prediction systems.</li>
+            <li>
+                <span class="date">2024</span>
+                <span>Researcher at <strong>University of British Columbia</strong>: Designed and implemented a deep learning pipeline to predict injury outcomes in concussed athletes, analyzing gender-based differences using advanced neural network architectures.</span>
+            </li>
+            <li>
+                <span class="date">2023</span>
+                <span>Research Assistant at <strong>Simon Fraser University</strong>: Developed a smart textile system integrating deep learning models (transformers and LLMs) for activity recognition, achieving 92% accuracy.</span>
+            </li>
+            <li>
+                <span class="date">2021</span>
+                <span>Research Assistant at <strong>Amirkabir University</strong>: Achieved 95% accuracy by designing a deep neural network for EEG signal processing, contributing to advancements in cognitive healthcare.</span>
+            </li>
+            <li>
+                <span class="date">2020</span>
+                <span>Data Scientist at <strong>Royan Institute</strong>: Conducted data analysis comparing surgical and drug treatments for injured mice, developing an automated data analysis toolbox in Python.</span>
+            </li>
         </ul>
 
-        <h3>Research Assistant at Simon Fraser University</h3>
-        <ul>
-            <li>Developed a smart textile system integrating deep learning models (transformers and LLMs) for activity recognition, achieving 92% accuracy.</li>
-            <li>Deployed memory-efficient CNNs for satellite image classification on FPGA, optimizing computational performance.</li>
-            <li>Mentored students in AI and programming as a Teaching Assistant for courses in Python, MATLAB, and C.</li>
-        </ul>
+        <h2>Research</h2>
+        <p>My research focuses on deep learning, biomedical signal processing, computer vision, and deploying machine learning models for real-world applications. I have experience in developing efficient ML pipelines, generative AI, and multi-modal LLMs.</p>
 
-        <h3>Research Assistant at Amirkabir University</h3>
-        <ul>
-            <li>Achieved 95% accuracy by designing a deep neural network for EEG signal processing, contributing to advancements in cognitive healthcare.</li>
-            <li>Collaborated with Duke University on wearable technology projects, focusing on biomedical signal processing and system design.</li>
-        </ul>
+        <br><br>
 
-        <h3>Data Scientist at Royan Institute</h3>
-        <ul>
-            <li>Conducted data analysis comparing surgical and drug treatments for injured mice.</li>
-            <li>Developed an automated data analysis toolbox in Python to streamline research workflows.</li>
-        </ul>
+        <div class="publication-item">
+            <div class="image-container">
+                <a href="https://github.com/mahdieghane/Textile_Mic">
+                    <img src="assets/textile_mic.jpg" alt="Smart Textile" class="publication-image" />
+                </a>
+            </div>
+            <div class="publication-content">
+                <p>
+                    <strong class="pubtitle">Smart Interlining Textile for Activity Recognition</strong>
+                    <br>
+                    <strong>Mahdieh Ghane Ezabadi</strong>
+                    <br>
+                    <strong class="type2">Simon Fraser University Project</strong>
+                    <br><br>
+                    <a href="https://github.com/mahdieghane/Textile_Mic"><i class="fab fa-github fa-lg"></i></a>
+                </p>
+                <p>
+                    Developed a smart interlining textile system for recognizing daily activities with over 92% accuracy. Integrated voice capture and chat functionality using large language models (LLMs), enabling real-time user interaction.
+                </p>
+            </div>
+        </div>
 
-        <h2>Projects</h2>
+        <div class="publication-item">
+            <div class="image-container">
+                <a href="https://github.com/mahdieghane/EEG-Prediction-Using-INDRNN">
+                    <img src="assets/eeg_analysis.jpg" alt="EEG Analysis" class="publication-image" />
+                </a>
+            </div>
+            <div class="publication-content">
+                <p>
+                    <strong class="pubtitle">EEG Signal Analysis for Cognitive Healthcare</strong>
+                    <br>
+                    <strong>Mahdieh Ghane Ezabadi</strong>
+                    <br>
+                    <strong class="type2">Amirkabir University Project</strong>
+                    <br><br>
+                    <a href="https://github.com/mahdieghane/EEG-Prediction-Using-INDRNN"><i class="fab fa-github fa-lg"></i></a>
+                </p>
+                <p>
+                    Designed and deployed a deep neural network for EEG signal processing, achieving 95% accuracy in applications for cognitive healthcare and attention detection.
+                </p>
+            </div>
+        </div>
 
-        <h3>Smart Interlining Textile</h3>
-        <ul>
-            <li><strong>Description</strong>: Developed a smart interlining textile system for recognizing daily activities with over 92% accuracy. Integrated voice capture and chat functionality using large language models (LLMs), enabling real-time user interaction.</li>
-            <li><strong>Technologies Used</strong>: Python, TensorFlow, Transformers, Embedded Systems.</li>
-            <li><a href="https://github.com/mahdieghane/Textile_Mic">GitHub Repository</a></li>
-        </ul>
-
-        <h3>EEG Signal Analysis</h3>
-        <ul>
-            <li><strong>Description</strong>: Designed and deployed a deep neural network for EEG signal processing, achieving 95% accuracy in applications for cognitive healthcare and attention detection.</li>
-            <li><strong>Technologies Used</strong>: PyTorch, Keras, Signal Processing, Statistical Analysis.</li>
-            <li><a href="https://github.com/mahdieghane/EEG-Prediction-Using-INDRNN">GitHub Repository</a></li>
-        </ul>
-
-        <h3>Satellite Imagery Super-Resolution</h3>
-        <ul>
-            <li><strong>Description</strong>: Explored super-resolution techniques for satellite imagery using transformer-based models, enabling enhanced analytical precision for remote sensing applications.</li>
-            <li><strong>Technologies Used</strong>: Python, Transformers, CNNs.</li>
-        </ul>
-
-        <h3>3D Computer Vision</h3>
-        <ul>
-            <li><strong>Description</strong>: Implemented projects involving surface reconstruction, geometric processing, and contour extraction using advanced methods like Signed Distance Functions and Quadric Error Metrics.</li>
-            <li><strong>Technologies Used</strong>: Python, OpenCV, PCA.</li>
-            <li><a href="https://github.com/mahdieghane/Computer_Vision_Course">GitHub Repository</a></li>
-        </ul>
-
-        <h3>Medical Image Processing</h3>
-        <ul>
-            <li><strong>Description</strong>: Conducted segmentation of breast cancer images and designed neural networks for medical image analysis, including focus state detection from EEG signals.</li>
-            <li><strong>Technologies Used</strong>: Python, TensorFlow, MATLAB.</li>
-        </ul>
-
-        <h2>Skills</h2>
-        <ul>
-            <li><strong>Programming Languages</strong>: Python (PyTorch, TensorFlow, Keras), C++, MATLAB, SQL.</li>
-            <li><strong>Technical Skills</strong>: Machine Learning, Deep Learning, Biomedical Signal Processing, Computer Vision, Distributed Systems, Statistical Analysis.</li>
-            <li><strong>Additional Skills</strong>: Real-Time Data Processing, Multi-Modal AI Models, FPGA Implementation, Embedded Systems.</li>
-        </ul>
-
-        <h2>Contact</h2>
-        <p>You can reach me at: <a href="#" onclick="window.location.href='mailto:'+atob('bWdhMTE0QHNmdS5jYQ==');">mga114@sfu.ca</a></p>
-
+        <div class="publication-item">
+            <div class="image-container">
+                <a href="https://github.com/mahdieghane/Computer_Vision_Course">
+                    <img src="assets/3d_vision.jpg" alt="3D Vision" class="publication-image" />
+                </a>
+            </div>
+            <div class="publication-content">
+                <p>
+                    <strong class="pubtitle">3D Computer Vision and Geometric Processing</strong>
+                    <br>
+                    <strong>Mahdieh Ghane Ezabadi</strong>
+                    <br>
+                    <strong class="type2">Simon Fraser University Project</strong>
+                    <br><br>
+                    <a href="https://github.com/mahdieghane/Computer_Vision_Course"><i class="fab fa-github fa-lg"></i></a>
+                </p>
+                <p>
+                    Implemented projects involving surface reconstruction, geometric processing, and contour extraction using advanced methods like Signed Distance Functions and Quadric Error Metrics.
+                </p>
+            </div>
+        </div>
     </div>
 </body>
-
 </html>
